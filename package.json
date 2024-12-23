@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dns-packet": "^5.6.1",
+    "dns-server": "file:",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5",
+    "node": "^23.5.0",
+    "nodemon": "^3.1.9"
+  },
+  "name": "dns-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

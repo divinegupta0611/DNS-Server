@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/homeCSS.css">
+    <title>Domain Name Server</title>
+</head>
+<body>
+    <div id="container1">
+        <h1>Domain Name System Server</h1>
+    </div>
+    <div id="container2">
+        <form action='/submit' method="POST">
+            <label for="hostname" id="hstnme">Host Name</label>
+            <label for="type" id="typ">Type</label>
+            <label for="data" id="dta">Data</label>
+            <br><br>
+            <input type="text" id="hostname" name="hostname" required>
+            <select id="type" name="type" required>
+                <option value="NS">NS</option>
+                <option value="A">A</option>
+                <option value="CNAME">CNAME</option>
+            </select>
+            <input type="text" id="data" name="data" required>
+            <button type="submit" id="btn1">ADD</button>
+        </form>
+    </div>
+    <br><br><br>
+    <div id="container3">
+        <table id="table1">
+            <tr>
+                <th>Host Name</th>
+                <th>Type</th>
+                <th>Data</th>
+            </tr>
+            <!-- <tr>
+                <td>divinegupta.dev</td>
+                <td>A</td>
+                <td>1.2.3.4</td>
+            </tr>
+            <tr>
+                <td>blog.divinegupta.dev</td>
+                <td>CNAME</td>
+                <td>divinegupta.dev</td>
+            </tr> -->
+        </table>
+    </div>
+</body>
+</html>

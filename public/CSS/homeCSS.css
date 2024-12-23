@@ -1,0 +1,35 @@
+#container1{
+    text-align: center;
+}
+label{
+    margin-left: 20%;
+    font-size: 20px;
+    font-weight: 100;
+}
+#hostname{
+    margin-left: 17%;
+}
+#type{
+    margin-left: 14%;
+    width: 170px;
+}
+#data{
+    margin-left: 11%;
+}
+#btn1{
+    margin-left: 5%;
+    background-color: blue;
+    color: white;
+    width: 90px;
+    height: 25px;
+}
+#table1{
+    text-align: center;
+    width: 700px;
+    margin-left: 25%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+    font-size: 25px;
+}
